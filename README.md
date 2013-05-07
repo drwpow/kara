@@ -7,7 +7,7 @@ Description
 -----------
 This is intended for **medium to advanced WordPress developers** that plan on styling their website from scratch.
 
-This is pretty minimal even for a blank theme. Contains **no CSS resets,** **no object-oriented tomfolery,** and contains only core HTML elements and WP functions. I also removed template comments because I feel the purpose of the little that’s there is self-evident.
+This is pretty minimal even for a blank theme. Contains **no CSS resets,** **no object-oriented tomfolery,** and contains only core HTML elements and WP functions. I also removed PHP comments because I feel the purpose of the little that’s there is self-evident (except for `functions.php`).
 
 *Kara*, meaning “empty” or “void” in Japanese, is something I’ve developed after spending years working with WordPress’s template system. Every site I build basically comes from this code base, though this is the first time I’ve standardized it. Every line was hand-crafted with full knowledge of what it does. Many CSS classes and containers were removed; some were left behind only as a starting example. This exists primarily because I didn’t find “blank” themes to be “blank” enough.
 
