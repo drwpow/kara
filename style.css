@@ -1,0 +1,13 @@
+/* 
+ * Theme Name: Kara
+ * Author: You!
+ * Version: 1.0
+ */
+html,body										{height:100%;margin:0;}
+footer											{height:5rem;}
+h1, h2, h3, h4, h5, h6 							{margin-top:0;}
+ul, ol 											{margin-top:0;}
+
+#main-wrapper									{min-height:100%;height:auto!important;height:100%;margin:0 auto -5rem;/* IMPORTANT: Bottom Margin = Footer Height (you can delete this) */}
+
+.content 										{padding-bottom:5rem;/* IMPORTANT: Same height as footer (you can delete this);}
