@@ -1,17 +1,29 @@
 <?php get_header();?>
   <section class="content">
-    <section class="posts posts-portfolio">
-<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+    <section class="posts posts-portfolio"><?php
+
+if(have_posts()) :
+  while(have_posts()) :
+    the_post();
+
+?>
       <article>
         <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
         <?php the_content('Read More'); ?>
         <a href="<?php comments_link(); ?>"><?php comments_number('', '1 Comment', '% Comments'); ?></a>
-      </article>
-<?php endwhile; else : ?>
+      </article><?php
+
+  endwhile;
+else :
+
+?>
       <article>
         <p>No posts found.</p>
-      <article>
-<?php endif; ?>
+      <article><?php
+      
+endif;
+
+?>
     </section>
     <aside>
       <?php get_sidebar(); ?>
